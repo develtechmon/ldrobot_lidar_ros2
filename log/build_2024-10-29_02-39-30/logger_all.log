@@ -1,0 +1,373 @@
+[0.133s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.133s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3f466eddb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3f466ecf70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3f466ecf70>>)
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.374s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2) by extension 'ros'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/3d_model) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/3d_model) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/3d_model) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/3d_model) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/3d_model) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/3d_model) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/3d_model) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/3d_model) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/3d_model) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/3d_model) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/3d_model) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/3d_model) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/3d_model) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/3d_model) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/docs) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/docs) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/docs) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/docs) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/docs) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/docs) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/docs) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/docs) by extension 'ros'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/docs) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/docs) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/docs) by extension 'python'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/docs) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/docs) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/images) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/images) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/images) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/images) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/images) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/images) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/images) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/images) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/images) by extension 'ros'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/images) by extensions ['cmake', 'python']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/images) by extension 'cmake'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/images) by extension 'python'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/images) by extensions ['python_setup_py']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/images) by extension 'python_setup_py'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ldrobot-lidar-ros2/ldlidar' with type 'ros.ament_cmake' and name 'ldlidar'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_component) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_component) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_component) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_component) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_component) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_component) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_component) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_component) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_component) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ldrobot-lidar-ros2/ldlidar_component' with type 'ros.ament_cmake' and name 'ldlidar_component'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_node) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_node) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_node) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_node) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_node) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_node) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_node) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_node) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/ldlidar_node) by extension 'ros'
+[0.402s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ldrobot-lidar-ros2/ldlidar_node' with type 'ros.ament_cmake' and name 'ldlidar_node'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/rules) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/rules) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/rules) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/rules) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/rules) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/rules) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/rules) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/rules) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/rules) by extension 'ros'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/rules) by extensions ['cmake', 'python']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/rules) by extension 'cmake'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/rules) by extension 'python'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/rules) by extensions ['python_setup_py']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/rules) by extension 'python_setup_py'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/scripts) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/scripts) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/scripts) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/scripts) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/scripts) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/scripts) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/scripts) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/scripts) by extension 'ros'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/scripts) by extensions ['cmake', 'python']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/scripts) by extension 'cmake'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/scripts) by extension 'python'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/scripts) by extensions ['python_setup_py']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldrobot-lidar-ros2/scripts) by extension 'python_setup_py'
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.440s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.440s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.440s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.441s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.441s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.441s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.441s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install
+[0.442s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jlukas/Desktop/My_Project/rplidar_ros/install
+[0.443s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install
+[0.446s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 412 installed packages in /opt/ros/humble
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'cmake_target' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'cmake_clean_cache' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'cmake_clean_first' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'cmake_force_configure' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'ament_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'catkin_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_component' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.518s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_component' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_component', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component', 'merge_install': False, 'path': '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_component', 'symlink_install': False, 'test_result_base': None}
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'cmake_target' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.519s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node', 'merge_install': False, 'path': '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_node', 'symlink_install': False, 'test_result_base': None}
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'cmake_target' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'cmake_clean_first' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'cmake_force_configure' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'ament_cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'ldlidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.520s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar', 'merge_install': False, 'path': '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar', 'symlink_install': False, 'test_result_base': None}
+[0.520s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.521s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.522s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_component' with build type 'ament_cmake'
+[0.522s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_component'
+[0.525s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.525s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component
+[2.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component
+[2.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_component -- -j4 -l4
+[21.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_component -- -j4 -l4
+[21.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_component
+[21.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_component)
+[21.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_component
+[21.774s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component' for CMake module files
+[21.775s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component' for CMake config files
+[21.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_component', 'cmake_prefix_path')
+[21.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.ps1'
+[21.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.dsv'
+[21.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.sh'
+[21.781s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib'
+[21.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_component', 'ld_library_path_lib')
+[21.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.ps1'
+[21.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.dsv'
+[21.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.sh'
+[21.784s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/bin'
+[21.784s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib/pkgconfig/ldlidar_component.pc'
+[21.784s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib/python3.10/site-packages'
+[21.785s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/bin'
+[21.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/package.ps1'
+[21.787s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/package.dsv'
+[22.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/package.sh'
+[22.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/package.bash'
+[22.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/package.zsh'
+[22.348s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/colcon-core/packages/ldlidar_component)
+[22.395s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_component)
+[22.395s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component' for CMake module files
+[22.396s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component' for CMake config files
+[22.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_component', 'cmake_prefix_path')
+[22.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.ps1'
+[23.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.dsv'
+[24.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.sh'
+[24.478s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib'
+[24.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_component', 'ld_library_path_lib')
+[24.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.ps1'
+[24.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.dsv'
+[24.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.sh'
+[24.495s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/bin'
+[24.495s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib/pkgconfig/ldlidar_component.pc'
+[24.495s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib/python3.10/site-packages'
+[24.495s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/bin'
+[24.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/package.ps1'
+[24.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/package.dsv'
+[24.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/package.sh'
+[24.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/package.bash'
+[24.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/ldlidar_component/package.zsh'
+[24.498s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/share/colcon-core/packages/ldlidar_component)
+[24.498s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_node' with build type 'ament_cmake'
+[24.498s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_node'
+[24.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_node': CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/rplidar_ros/install/rplidar_ros:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_node -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node
+[26.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_node' returned '0': CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/rplidar_ros/install/rplidar_ros:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_node -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node
+[26.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_node': CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/rplidar_ros/install/rplidar_ros:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_node -- -j4 -l4
+[32.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_node' returned '0': CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/rplidar_ros/install/rplidar_ros:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_node -- -j4 -l4
+[32.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_node': CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/rplidar_ros/install/rplidar_ros:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_node
+[32.638s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_node)
+[32.639s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node' for CMake module files
+[32.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_node' returned '0': CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/rplidar_ros/install/rplidar_ros:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar_node
+[32.640s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node' for CMake config files
+[32.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_node', 'cmake_prefix_path')
+[32.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/hook/cmake_prefix_path.ps1'
+[32.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/hook/cmake_prefix_path.dsv'
+[32.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/hook/cmake_prefix_path.sh'
+[32.643s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/lib'
+[32.644s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/bin'
+[32.644s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/lib/pkgconfig/ldlidar_node.pc'
+[32.644s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/lib/python3.10/site-packages'
+[32.644s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/bin'
+[32.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/package.ps1'
+[32.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/package.dsv'
+[32.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/package.sh'
+[32.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/package.bash'
+[32.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/package.zsh'
+[32.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/colcon-core/packages/ldlidar_node)
+[32.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_node)
+[32.687s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node' for CMake module files
+[32.688s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node' for CMake config files
+[32.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_node', 'cmake_prefix_path')
+[32.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/hook/cmake_prefix_path.ps1'
+[32.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/hook/cmake_prefix_path.dsv'
+[32.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/hook/cmake_prefix_path.sh'
+[32.691s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/lib'
+[32.691s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/bin'
+[32.691s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/lib/pkgconfig/ldlidar_node.pc'
+[32.691s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/lib/python3.10/site-packages'
+[32.692s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/bin'
+[32.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/package.ps1'
+[32.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/package.dsv'
+[32.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/package.sh'
+[32.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/package.bash'
+[32.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/ldlidar_node/package.zsh'
+[32.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node/share/colcon-core/packages/ldlidar_node)
+[32.695s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar' with build type 'ament_cmake'
+[32.695s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar'
+[32.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[32.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar': CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/rplidar_ros/install/rplidar_ros:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar
+[33.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/rplidar_ros/install/rplidar_ros:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar
+[33.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar': CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/rplidar_ros/install/rplidar_ros:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar -- -j4 -l4
+[33.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/rplidar_ros/install/rplidar_ros:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar -- -j4 -l4
+[33.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar': CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/rplidar_ros/install/rplidar_ros:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar
+[33.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar)
+[33.325s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar' for CMake module files
+[33.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/rplidar_ros/install/rplidar_ros:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/bumperbot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/serial/lib:/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/build/ldlidar
+[33.326s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar' for CMake config files
+[33.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar', 'cmake_prefix_path')
+[33.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/hook/cmake_prefix_path.ps1'
+[33.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/hook/cmake_prefix_path.dsv'
+[33.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/hook/cmake_prefix_path.sh'
+[33.328s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/bin'
+[33.329s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/lib/pkgconfig/ldlidar.pc'
+[33.329s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/lib/python3.10/site-packages'
+[33.329s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/bin'
+[33.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/package.ps1'
+[33.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/package.dsv'
+[33.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/package.sh'
+[33.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/package.bash'
+[33.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/package.zsh'
+[33.332s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/colcon-core/packages/ldlidar)
+[33.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar)
+[33.364s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar' for CMake module files
+[33.364s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar' for CMake config files
+[33.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar', 'cmake_prefix_path')
+[33.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/hook/cmake_prefix_path.ps1'
+[33.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/hook/cmake_prefix_path.dsv'
+[33.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/hook/cmake_prefix_path.sh'
+[33.366s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/bin'
+[33.366s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/lib/pkgconfig/ldlidar.pc'
+[33.367s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/lib/python3.10/site-packages'
+[33.367s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/bin'
+[33.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/package.ps1'
+[33.368s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/package.dsv'
+[33.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/package.sh'
+[33.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/package.bash'
+[33.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/package.zsh'
+[33.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/colcon-core/packages/ldlidar)
+[33.372s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.372s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.372s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[33.372s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.380s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.380s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.380s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.405s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.406s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/local_setup.ps1'
+[33.409s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/_local_setup_util_ps1.py'
+[33.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/setup.ps1'
+[33.415s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/local_setup.sh'
+[33.416s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/_local_setup_util_sh.py'
+[33.417s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/setup.sh'
+[33.420s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/local_setup.bash'
+[33.422s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/setup.bash'
+[33.427s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/local_setup.zsh'
+[33.428s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/setup.zsh'

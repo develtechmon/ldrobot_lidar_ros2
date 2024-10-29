@@ -1,0 +1,15 @@
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ament_index/resource_index/package_run_dependencies/ldlidar
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ament_index/resource_index/parent_prefix_path/ldlidar
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/environment/ament_prefix_path.sh
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/environment/ament_prefix_path.dsv
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/environment/path.sh
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/environment/path.dsv
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/local_setup.bash
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/local_setup.sh
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/local_setup.zsh
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/local_setup.dsv
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/package.dsv
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ament_index/resource_index/packages/ldlidar
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/cmake/ldlidarConfig.cmake
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/cmake/ldlidarConfig-version.cmake
+/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar/share/ldlidar/package.xml
